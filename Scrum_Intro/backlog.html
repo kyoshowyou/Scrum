@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>產品代辦清單</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="src/scss/backlog.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div id="title">
+            <div>
+                <a href="PoIntro.html"><img src="src/images/back.svg" alt="last page"></a>
+            </div>
+            <div><img src="src/images/backlog.svg" alt="product backlog" id="backlog"></div>
+        </div>
+        <div id="high">
+            <img src="src/images/high.svg" alt="higher priority">
+        </div>
+        <div class="dropContainer">
+            <div class="candidate container left">
+                <!-- 實現放置的區塊 -->
+                <!-- //加入 draggable="true" 來實現拖曳 -->
+                <div class="draggable" draggable="true" data-id="1">
+
+                </div>
+                <div class="draggable" draggable="true" data-id="2"></div>
+                <div class="draggable" draggable="true" data-id="3"></div>
+                <div class="draggable" draggable="true" data-id="4"></div>
+            </div>
+
+            <div class="container right">
+                <div class="productBacklog">
+                    <!-- //實現放置的區塊 -->
+                </div>
+            </div>
+        </div>
+        <script src="src/js/draggable.js"></script>
+        <div id="low">
+            <img src="src/images/low.svg" alt="lower priority">
+        </div>
+        <div id="button">
+            <img src="src/images/yet.svg" alt="not finish yet" id="yet">
+            <img src="src/images/done.svg" alt="done" id="done">
+        </div>
+    </main>
+</body>
+
+</html>

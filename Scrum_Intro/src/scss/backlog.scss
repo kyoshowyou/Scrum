@@ -1,0 +1,92 @@
+$bg-height: 100vh;
+main {
+    margin: 0 auto;
+    height: $bg-height;
+    width: 1440/1024*$bg-height;
+    background-image: url(../images/bg.jpg);
+    background-size: auto $bg-height;
+    background-repeat: no-repeat;
+}
+
+#title {
+    height: 0.09*$bg-height;
+    width: auto;
+    display: flex;
+    div {
+        height: 100%;
+        width: 49%;
+    }
+    img {
+        height: 0.06*$bg-height;
+    }
+    #backlog {
+        padding-top: 0.04*$bg-height;
+        padding-left: 10%;
+    }
+}
+
+#high,
+#low {
+    height: 0.08*$bg-height;
+    width: auto;
+    img {
+        height: 0.06*$bg-height;
+        padding-top: 0.02*$bg-height;
+        padding-left: 50%;
+    }
+}
+
+.dropContainer {
+    height: 0.65*$bg-height;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productBacklog {
+    height: 100%;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 49%;
+}
+
+.left {
+    padding-left: 8%;
+}
+
+.right {
+    padding-right: 11%;
+}
+
+.draggable {
+    @for $i from 1 through 4 {
+        &[data-id='#{$i}'] {
+            background-image: url("../images/left_"+#{$i}+".svg");
+        }
+    }
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-y: 57%;
+    background-position-x: 45%;
+    height: 24%;
+}
+
+.right .draggable {
+    background-size: 120%;
+    background-position-y: 50%;
+    background-position-x: 58%;
+}
+
+#done {
+    display: none;
+}
+
+#button {
+    img {
+        height: 7vh;
+        float: right;
+        margin-top: 1%;
+        margin-right: 11%;
+    }
+}

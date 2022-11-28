@@ -1,0 +1,150 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'SemiBold' !important;
+}
+.powder_block{
+    position: absolute;
+    z-index: 2;
+    top: 3vh;
+    left: 7vw;
+}
+.color_block_powder{
+    width: 85vw;
+    height: 35vh;
+    background-color: rgba(221, 126, 107, .85);
+    position: absolute;
+    top: 8vh;
+    z-index: 0;
+    border-radius: 25px;
+}
+.powder_img{
+    height: 40vh;
+    top: 6vh;
+    left: 3vw;
+    z-index: 1;
+    position: absolute;
+}
+.p2{
+    font-size: 1.7vw;
+    width: 70vw;
+    top: 7vh;
+    left: 12vw;
+    z-index: 2;
+    position: absolute;
+    line-height: 6vh;
+}
+.logo{
+    width: 12vw;
+    top: 28vh;
+    left: 25vw;
+    z-index: 1;
+    position: absolute;
+}
+
+/* 便條紙們 */
+.memo_left{
+    width: 30vw;
+    top: 50vh;
+    left: 15vw;
+    z-index: 1;
+    position: absolute;
+    height: 50vh;
+}
+.memo_right{
+    width: 30vw;
+    top: 50vh;
+    right: 15vw;
+    z-index: 1;
+    position: absolute;
+    transform: rotateY(180deg);
+    height: 50vh;
+}
+.title_left{
+    font-size: 5vh;
+    top: 50vh;
+    left: 18vw;
+    z-index: 2;
+    position: absolute;
+    font-weight: bold;
+    transform: rotate(-1deg);
+
+}
+.text_left{
+    width: 21vw;
+    font-size: 3vh;
+    top: 65vh;
+    left: 22vw;
+    z-index: 2;
+    position: absolute;
+    line-height: 6vh;
+    transform: rotate(-1deg);
+}
+.title_right{
+    font-size: 5vh;
+    top: 50vh;
+    left: 58vw;
+    z-index: 2;
+    position: absolute;
+    font-weight: bold;
+    transform: rotate(1deg);
+}
+.text_right{
+    width: 21vw;
+    font-size: 3vh;
+    top: 63vh;
+    left: 62vw;
+    z-index: 2;
+    position: absolute;
+    line-height: 6vh;
+    transform: rotate(1deg);
+}
+.form_left{
+    top: 69vh;
+    left: 19vw;
+    z-index: 3;
+    position: absolute;
+    line-height: 6vh;
+}
+.form_right{
+    top: 65vh;
+    left: 59vw;
+    z-index: 3;
+    position: absolute;
+    line-height: 9vh;
+}
+input{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.next_link{    
+    font-size: 4vh;
+    top: 90vh;
+    left: 88vw;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+/* 
+.error_text{
+
+} */
+
+/* 固定 */
+a:hover{
+    color: gray;
+}
+.pre_page{
+    font-size: 2.5vh;
+    top: 1vh;
+    left: 1vw;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: url('font/SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normalss;
+}

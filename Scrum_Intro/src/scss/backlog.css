@@ -1,0 +1,97 @@
+main {
+  margin: 0 auto;
+  height: 100vh;
+  width: 140.625vh;
+  background-image: url(../images/bg.jpg);
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+}
+
+#title {
+  height: 9vh;
+  width: auto;
+  display: flex;
+}
+#title div {
+  height: 100%;
+  width: 49%;
+}
+#title img {
+  height: 6vh;
+}
+#title #backlog {
+  padding-top: 4vh;
+  padding-left: 10%;
+}
+
+#high,
+#low {
+  height: 8vh;
+  width: auto;
+}
+#high img,
+#low img {
+  height: 6vh;
+  padding-top: 2vh;
+  padding-left: 50%;
+}
+
+.dropContainer {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.productBacklog {
+  height: 100%;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 49%;
+}
+
+.left {
+  padding-left: 8%;
+}
+
+.right {
+  padding-right: 11%;
+}
+
+.draggable {
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position-y: 57%;
+  background-position-x: 45%;
+  height: 24%;
+}
+.draggable[data-id="1"] {
+  background-image: url("../images/left_1.svg");
+}
+.draggable[data-id="2"] {
+  background-image: url("../images/left_2.svg");
+}
+.draggable[data-id="3"] {
+  background-image: url("../images/left_3.svg");
+}
+.draggable[data-id="4"] {
+  background-image: url("../images/left_4.svg");
+}
+
+.right .draggable {
+  background-size: 120%;
+  background-position-y: 50%;
+  background-position-x: 58%;
+}
+
+#done {
+  display: none;
+}
+
+#button img {
+  height: 7vh;
+  float: right;
+  margin-top: 1%;
+  margin-right: 11%;
+}/*# sourceMappingURL=backlog.css.map */

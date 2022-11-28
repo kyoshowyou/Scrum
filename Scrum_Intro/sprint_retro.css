@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'SemiBold' !important;
+}
+.notebook_bg{
+    background-image: url("image/筆記本.png");
+    margin-top: 2vh;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.soy_img{
+    height: 40vh;
+    top: 40vh;
+    left: 75vw;
+    position: absolute;
+    transform: rotate(10deg);
+}
+.pen_img{
+    height: 40vh;
+    top: 30vh;
+    left: 8vw;
+    position: absolute;
+    transform: rotate(-75deg);
+}
+.title{
+    font-size: 6.5vh;
+    top: 5vh;
+    left: 25vw;
+    position: absolute;
+    transform: rotate(-1deg);
+    font-weight: bolder;
+}
+.text{
+    font-size: 3.5vh;
+    top: 18vh;
+    left: 26vw;
+    position: absolute;
+    transform: rotate(-1deg);
+    line-height: 15vh;
+}
+.confluence_logo{
+    width: 17vw;
+    top: 84vh;
+    left: 35vw;
+    position: absolute;
+    transform: rotate(-1deg);
+}
+.next_page{
+    font-size: 3.5vh;
+    top: 90vh;
+    left: 68vw;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+a:hover{
+    color: white;
+}
+
+/* 固定 */
+.pre_page{
+    font-size: 2.5vh;
+    top: -1vh;
+    left: 1vw;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: url('font/SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normalss;
+}

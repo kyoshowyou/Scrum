@@ -1,0 +1,30 @@
+html,
+body {
+    background-color: #DFC1A7;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.cover{
+    position: relative;
+    display: inline-block;
+}
+p{
+    font-family: 'SemiBold';
+    color: white;
+    font-size: 8vmin;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+img{
+    width:65%;
+    display:block; 
+    margin:auto;
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: url('font/SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

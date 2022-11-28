@@ -1,0 +1,103 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'SemiBold' !important;
+}
+.Sprintintro_page {
+    background-image: url("image/店內背景_修.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+p{
+    color: black;
+}
+.p1{
+    font-size: 2vw;
+    width: 63vw;
+    top: 12vh;
+    left: 25vw;
+    z-index: 2;
+    position: absolute;
+}
+
+.color_block{
+    width: 80vw;
+    height: 27vh;
+    background-color: rgb(178, 154, 133, 0.85);
+    position: absolute;
+    top: 9vh;
+    left: 10vw;
+    z-index: 0;
+    border-radius: 25px;
+}
+.porksauce_img{
+    height: 35vh;
+    top: 5vh;
+    left: 12vw;
+    z-index: 1;
+    position: absolute;
+}
+
+.viniger_block{
+    position: fixed;
+    z-index: 2;
+    top: 33vh;
+    left: 30vw;
+}
+.color_block_viniger{
+    width: 80vw;
+    height: 38vh;
+    background-color: rgb(255, 242, 204, .85);
+    position: absolute;
+    top: 9vh;
+    left: -20vw;
+    z-index: 0;
+    border-radius: 25px;
+}
+.viniger_img{
+    height: 35vh;
+    top: 11vh;
+    left: 50vw;
+    z-index: 1;
+    position: absolute;
+}
+.p2{
+    font-size: 2vw;
+    width: 65vw;
+    top: 9vh;
+    left: -16vw;
+    z-index: 2;
+    position: absolute;
+}
+
+.next_link{    
+    font-size: 4vh;
+    width: 15vw;
+    top: 85vh;
+    left: 45vw;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+a:hover{
+    color: white !important;
+}
+
+/* 固定 */
+.pre_page{
+    font-size: 2.5vh;
+    top: 1vh;
+    left: 1vw;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: url('font/SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normalss;
+}
